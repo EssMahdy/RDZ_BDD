@@ -15,7 +15,7 @@
         <div class="form">
         <?php include "./loginController.php" ?>
         <form method="post">
-            <label for="username">Identifiant:</label><br>
+            <label for="username">Identifiant:(numéro de sécurité sociale)</label><br>
             <input type="text" id="username" name="username" required><br>
             <label for="password">Mot de passe:</label><br>
             <input type="password" id="password" name="password" required><br><br>
